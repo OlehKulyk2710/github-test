@@ -34,26 +34,28 @@
         </figure>
     </a>
 
-    <table>
+    <table class="table">
         <caption>The train schedule</caption>
         <thead>
             <tr>
                 <th>Номер</th>
-                <th colspan="2">Маршрут</th>
-                <th colspan="2">Время в пути</th>
+                <th>Маршрут</th>
+                <th>Время в пути</th>
                 <th>Add inform.</th>              
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td rowspan="2">433</td>
-                <td colspan="2">Киев-Львов
-                    
-                </td>
-                <td colspan="2">5 часов
-                    
-                </td>
-                <td>sd</td>
+            <tr class="table-row">
+                <td>433</td>
+                <td>Киев-Львов</td>
+                <td>5 часов</td>
+                <td>nothing</td>
+            </tr>
+            <tr class="table-row">
+                <td>504</td>
+                <td>Kiev-Vilnus</td>
+                <td>10 hours</td>
+                <td>delay</td>
             </tr>
         </tbody>
     </table>
@@ -78,6 +80,19 @@
     <time datetime="2019-10-03">2019.10.03</time>
     <p>Тег &lt;article&gt; означает или ...</p>
     <p>This is a tag <code>audio</code></p>
+
+    <div>
+        <p class="text first">Первый</p>
+        <p class="text second">Второй</p>
+        <p class="text third">Третий</p>
+    </div>
+
+    <a href="#just_header">Переход в начало</a>
+    <p>
+        Переход на
+    <a class="link" href="http://google.com" target="_blank">ukr.net</a>
+    </p>
+    <button type="button" class="link">TEST</button>
 
 </body>
 </html>
