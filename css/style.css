@@ -1,6 +1,9 @@
 body {
   background-color: rgb(227, 235, 238);
-  color: black;
+}
+
+:root {
+  --brand-color: orange;
 }
 
 .text {
@@ -41,4 +44,24 @@ body {
   background-color: tomato;
   color: white;
   cursor: help;
+}
+.div {
+  color: aqua;
+}
+.div-link {
+  color: var(--brand-color);
+}
+
+.title.headline {
+  font-family: cursive;
+  color: red;
+}
+
+.headline {
+  font-family: sans-serif;
+  color: yellow;
+}
+.title {
+  font-family: serif;
+  color: blue;
 }
